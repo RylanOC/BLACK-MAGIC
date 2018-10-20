@@ -1,4 +1,5 @@
 ### **Puts Puts**
+**Create Libc Leaks**
 
 PLT - Procedure Linkage Table
 
@@ -43,13 +44,12 @@ p.sendline('A'*24+str(rop))
 
 
 ### **Libc_csu_init**
+**Call Arbitrary Functions With up to Three Arguments**
 
-Can't find ROP gadgets to set your arguments? Make your own gadgets!
+![](https://github.com/RylanOC/BLACK-MAGIC/blob/master/media/libc_csu_init.jpeg)
 
-![](/Users/Rylan/Desktop/Useful/media/libc_csu_init.jpeg)
 
-**STDIN Buffer**
-
+### **STDIN Buffer**
 [https://www.slideshare.net/AngelBoy1/play-with-file-structure-yet-another-binary-exploit-technique](https://www.slideshare.net/AngelBoy1/play-with-file-structure-yet-another-binary-exploit-technique)
 
 [https://gsec.hitb.org/materials/sg2018/WHITEPAPERS/FILE%20Structures%20-%20Another%20Binary%20Exploitation%20Technique%20-%20An-Jie%20Yang.pdf](https://gsec.hitb.org/materials/sg2018/WHITEPAPERS/FILE%20Structures%20-%20Another%20Binary%20Exploitation%20Technique%20-%20An-Jie%20Yang.pdf)
