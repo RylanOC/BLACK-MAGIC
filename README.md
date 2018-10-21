@@ -53,3 +53,9 @@ p.sendline('A'*24+str(rop))
 [https://www.slideshare.net/AngelBoy1/play-with-file-structure-yet-another-binary-exploit-technique](https://www.slideshare.net/AngelBoy1/play-with-file-structure-yet-another-binary-exploit-technique)
 
 [https://gsec.hitb.org/materials/sg2018/WHITEPAPERS/FILE%20Structures%20-%20Another%20Binary%20Exploitation%20Technique%20-%20An-Jie%20Yang.pdf](https://gsec.hitb.org/materials/sg2018/WHITEPAPERS/FILE%20Structures%20-%20Another%20Binary%20Exploitation%20Technique%20-%20An-Jie%20Yang.pdf)
+
+## **Symbolic Execution**
+[https://github.com/jakespringer/angr_ctf](https://github.com/jakespringer/angr_ctf)
+
+## **Timeless Debugging** 
+[https://rr-project.org/](https://rr-project.org/)
