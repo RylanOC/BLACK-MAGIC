@@ -61,3 +61,7 @@ p.sendline('A'*24+str(rop))
 [https://rr-project.org/](https://rr-project.org/)
 
 ## **V Tables**
+
+## **Constraint Solving with Z3**
+[https://github.com/Z3Prover/z3](https://github.com/Z3Prover/z3)
+[https://ericpony.github.io/z3py-tutorial/guide-examples.htm](https://ericpony.github.io/z3py-tutorial/guide-examples.htm)
