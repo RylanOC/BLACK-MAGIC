@@ -12,7 +12,7 @@ Sometimes when building ROP chains, we need to set argument registers for a func
 
 Luckily for us, every **<u>64 bit</u>** binary will include a function called "libc_csu_init" (32 bit binaries include a different version of this function as well, but it doesn't have the same affect. The calling convention for 32 bit binaries puts all of the arguments on the stack, so we don't need to worry about special gadgets like this on). Near the bottom of this function, we can see the loop shown below:
 
-![](./media/libc_csu_init.jpeg)
+![](../media/libc_csu_init.jpeg)
 
 We can quickly call an arbitrary function pointer with arguments of our choosing by setting the following registers:
 
