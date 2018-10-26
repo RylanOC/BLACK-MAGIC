@@ -14,6 +14,6 @@ CTFs are fun and sometimes I accidentally learn things from them. Here are some 
 
 ### Reverse Engineering
 
-- [Using Angr to Solve Crackmes (In Progress)](./re/symbolic_execution,md)
+- [Using Angr to Solve Crackmes (In Progress)](./re/symbolic_execution.md)
 - [Using Z3 to Solve Difficult Constraints (In Progress)](./re/constraint_solving.md)
 - [Replaying Program Execution with Timeless Debugging (In Progress)](./re/timeless_debugging.md)
